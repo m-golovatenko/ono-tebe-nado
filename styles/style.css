@@ -1,1 +1,6 @@
-/* место для вашего кода */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+/*HEADER*/
+@import url(../styles/sections/header/header.css);
+/*FOOTER*/
+@import url(../styles/sections/footer/footer.css);
