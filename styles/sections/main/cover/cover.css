@@ -47,25 +47,6 @@
   letter-spacing: 30px;
 }
 
-.cover__title-el-modified-1 {
-  letter-spacing: 60px;
-  display: inline;
-}
-
-.cover__title-el-modified-2 {
-  letter-spacing: 60px;
-  display: inline;
-}
-
-.cover__title-el-modified-3 {
-  letter-spacing: 30px;
-  display: inline;
-}
-
-.cover__title-el-modified-4 {
-  letter-spacing: 0;
-  display: inline;
-}
 .cover__title-el_2 {
   line-height: 100%;
   letter-spacing: 30px;
@@ -77,6 +58,21 @@
   line-height: 100%;
   letter-spacing: 60px;
   text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+  display: inline;
+}
+
+.letter-spacing-redused {
+  letter-spacing: 30px;
+  display: inline;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+  display: inline;
 }
 
 .cover__subtitle {
