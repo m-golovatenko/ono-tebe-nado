@@ -8,7 +8,7 @@ Pet-проект по вёрстке, разработанный для широ
 
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" title="HTML5" alt="HTML"/>&nbsp;
 <img src="https://img.shields.io/badge/css3-6DA55F.svg?style=for-the-badge&logo=css3&logoColor=blue"  title="CSS3" alt="CSS" />&nbsp;
-<img src="https://img.shields.io/badge/bem-000000.svg?style=for-the-badge&logo=bem3&logoColor=black"  title="BEM" alt="BEM" />&nbsp;
+<img src="https://img.shields.io/badge/bem-b2b2b2.svg?style=for-the-badge&logo=bem3&logoColor=black"  title="BEM" alt="BEM" />&nbsp;
 
 ## Ссылка на проект
 
