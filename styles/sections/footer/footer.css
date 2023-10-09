@@ -26,11 +26,6 @@
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
-  text-decoration: underline;
-}
-
-.footer__links-list-item:first-of-type {
-  text-decoration: none;
 }
 
 .footer__social-list {

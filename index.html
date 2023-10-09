@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body>
+  <body id="main">
     <header class="header">
       <div class="header__content">
         <nav class="header__menu">
           <ul class="header__links-list">
-            <li class="header__links-list-item">главная</li>
-            <li class="header__links-list-item">посмотреть лоты</li>
-            <li class="header__links-list-item">об аукционе</li>
+            <li class="header__links-list-item"><a href="#main" class="link">главная</a></li>
+            <li class="header__links-list-item">
+              <a href="#lots" class="link">посмотреть лоты</a>
+            </li>
+            <li class="header__links-list-item"><a href="#about" class="link">об аукционе</a></li>
           </ul>
         </nav>
 
-        <a href="#" class="header__logo">
+        <a href="/" class="header__logo">
           <img
             src="./images/logo-black.svg"
             alt="Логотип Оно тебе надо."
@@ -54,11 +56,11 @@
         </div>
       </section>
 
-      <section class="lots">
+      <section class="lots" id="lots">
         <h2 class="lots__title">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a href="" class="card-link">
+            <a href="https://youtu.be/o3Z6kLmaTFs?si=3nQwTjiuC17X3I9P" class="card-link">
               <article class="card card_type_film">
                 <h2 class="card__title">Фильм режиссёра, который бросил киношколу</h2>
                 <p class="card__text">
@@ -69,7 +71,10 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a href="" class="card-link">
+            <a
+              href="https://www.litres.ru/book/dzheyms-dzhoys-22409007/uliss-51762468/chitat-onlayn/"
+              class="card-link"
+            >
               <article class="card card_type_book">
                 <h2 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
@@ -84,7 +89,10 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a href="" class="card-link">
+            <a
+              href="https://dzen.ru/a/X9dzfxxdwRZSdMfG?utm_referer=www.google.com"
+              class="card-link"
+            >
               <article class="card card_type_picture">
                 <h2 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
@@ -101,7 +109,7 @@
         <a class="lots__look-more-link">посмотреть больше</a>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="about__column">
           <div class="about__logo">
             <img
@@ -141,25 +149,25 @@
 
       <nav class="footer__menu">
         <ul class="footer__links-list">
-          <li class="footer__links-list-item">главная</li>
-          <li class="footer__links-list-item">посмотреть лоты</li>
-          <li class="footer__links-list-item">об аукционе</li>
+          <li class="footer__links-list-item"><a href="#main" class="link">главная</a></li>
+          <li class="footer__links-list-item"><a href="#lots" class="link">посмотреть лоты</a></li>
+          <li class="footer__links-list-item"><a href="#about" class="link">об аукционе</a></li>
         </ul>
       </nav>
 
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="" class="footer__social-link">
+          <a href="https://www.youtube.com/" class="footer__social-link">
             <img src="./images/yt.svg" alt="Иконка Youtube." class="footer__social-icon" />
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="" class="footer__social-link">
+          <a href="https://vk.com/" class="footer__social-link">
             <img src="./images/vk.svg" alt="Иконка Вконтакте." class="footer__social-icon" />
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="" class="footer__social-link">
+          <a href="https://ru.pinterest.com/" class="footer__social-link">
             <img src="./images/pinterest.svg" alt="Иконка Pinterest." class="footer__social-icon" />
           </a>
         </li>
