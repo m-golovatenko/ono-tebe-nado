@@ -1,0 +1,118 @@
+.cover {
+  width: 100%;
+  background-image: url('../../../../images/cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 758px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cover::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.cover__title {
+  width: 100%;
+  z-index: 10;
+  margin: 0 auto;
+  padding: 0;
+  color: #fff;
+  position: relative;
+  padding: 165px 50px 147px;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  max-width: 1440px;
+  box-sizing: border-box;
+}
+
+.cover__title-el {
+  width: 100%;
+  display: block;
+}
+
+.cover__title-el_1 {
+  line-height: 115%;
+  letter-spacing: 30px;
+}
+
+.cover__title-el_2 {
+  line-height: 100%;
+  letter-spacing: 30px;
+  text-align: center;
+  padding-right: 60px;
+}
+
+.cover__title-el_3 {
+  line-height: 100%;
+  letter-spacing: 60px;
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+  display: inline;
+}
+
+.letter-spacing-redused {
+  letter-spacing: 30px;
+  display: inline;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+  display: inline;
+}
+
+.cover__subtitle {
+  display: flex;
+  gap: 78px;
+  width: 100%;
+  position: relative;
+  padding: 0 50px;
+  z-index: 10;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.cover__text {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.cover__button {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 12px 32px;
+}
+
+.cover__button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #000;
+}

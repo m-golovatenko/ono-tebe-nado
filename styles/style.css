@@ -2,5 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 /*HEADER*/
 @import url(../styles/sections/header/header.css);
+/*MAIN*/
+@import url(../styles/sections/main/main.css);
 /*FOOTER*/
 @import url(../styles/sections/footer/footer.css);
